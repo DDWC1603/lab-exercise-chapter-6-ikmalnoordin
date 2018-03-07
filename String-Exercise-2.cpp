@@ -1,17 +1,18 @@
-//append char1 with char2 with the right string function.
-//and display both char1 and char2
+//Nur Ikmal Hakim
+//A17DW4376
 #include <iostream>
+#include <cstring>
+int main()
+{
 
-int main(){
+	char char1[11]="Hello", char2[21]="There";
 
-	char char1[11], char2[21];
-
-	strcpy(char1,"haillo");
-	strcpy(char2," there");
-
-	cout<<char1<<endl;
-	cout<<char2<<endl;
-
+	
+	std::cout<<char1<<std::endl;
+	std::cout<<char2<<std::endl;
+		strcat(char1,char2);
+	std::cout<<char1<<std::endl;
 	return 0;
 }
+
 
