@@ -1,15 +1,17 @@
-//include your name and matric number here
-//display the string below using the string function state below.
+//Nur Ikmal Hakim
+//A17DW4376
 
 #include <iostream>
+#include <cstring>
 
 int main()
 {
-	char engkau[10];
+	char engkau[10]="HELLO";
 
 	//stringcopy(a,"hello");
 	
-	cout<<engkau;
+	std::cout<<engkau;
 
 	return 0;
 }
+
